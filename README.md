@@ -68,7 +68,7 @@ After that you can choose a few parameters.
 - **Available browser's size**: 1920x1080, 1366x768, 1024x768
 
 And then you need to click the **Build** button.
-![Screen of Jenkins build 2](/readme-content/images/Build.png)
+<img width="70%" title="Screen of Jenkins build 2" src="/readme-content/images/Build.png">
 
 #### <a name="how-to-run-autotests-locally">Run UI tests locally</a>
 Here's the command to start a new run locally:
@@ -165,26 +165,32 @@ In this case use this command:
 ## <a name="test-reports">Test reports</a>
 **For remote runs**:
 A test report will be automatically generated after an autotests run's completion. You can check an **Allure report** in the **Jenkins** interface:
-![Screen where to find Allure report](/readme-content/images/Allure.png)
-![Screen with Allure report](/readme-content/images/Allure%20Report.png)
+<p align="center"> 
+<img width="45%" title="Screen where to find Allure report" src="/readme-content/images/Allure.png"> 
+<img width="45%" title="Screen with Allure report" src="/readme-content/images/Allure%20Report.png"> </p>
 
 **For local runs**:
 Run the task "allureServe"
-![Screen allureServe](/readme-content/images/allureServe.png)
+<p align="center">
+<img width="90%" title="Screen allureServe" src="/readme-content/images/allureServe.png"> </p>
 
 ## <a name="Attachments">Attachments</a>
 Each test result in **Allure reports** includes attachments, such as screenshot, page source, video, and browser console logs.
-![Screen of attaches](/readme-content/images/Attachments.png)
+<p align="center">
+<img width="90%" title="Screen of attaches" src="/readme-content/images/Attachments.png"> </p>
+
 
 Example of the video with record of the test execution:
-![Gif of video](/readme-content/images/Video%20from%20test%20run.gif)
+<p align="center">
+<img width="90%" title="Gif of video" src="/readme-content/images/Video%20from%20test%20run.gif"> </p>
 
 ## <a name="TMS">TMS integrations</a>
 Test run results will also be available in the test management system **Allure TestOps**.
-![Screen where to find Allure TetsOps](/readme-content/images/Allure%20TestOps.png)
-![Screen with testcases in Allure TetsOps](/readme-content/images/Allure%20TestOps%20Report.png)
+<p align="center"> 
+<img width="45%" title="Screen where to find Allure TetsOps" src="/readme-content/images/Allure%20TestOps.png"> 
+<img width="45%" title="Screen with testcases in Allure TetsOps" src="/readme-content/images/Allure%20TestOps%20Report.png"> </p>
 
 ## <a name="Notifications">Notifications</a>
 The **telegram bot** will send a message to the **telegram group** about the completion of a test run. The text of the bot's message includes a link to the **Allure test report** in the **Jenkins**.
 
-![Telegram message](/readme-content/images/Telegram%20message.png)
+<p align="center"> <img width="50%" title="Telegram message" src="/readme-content/images/Telegram%20message.png"> </p>
