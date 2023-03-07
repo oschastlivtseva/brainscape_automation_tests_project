@@ -16,13 +16,13 @@ public class ConfigProvider {
     }
 
     public static String getUserEmail() {
-        AuthConfig config = ConfigFactory.create(AuthConfig.class);
+        AuthConfig config = ConfigFactory.create(AuthConfig.class, System.getProperties());
 
         return config.getUserEmail();
     }
 
     public static String getUserPassword() {
-        AuthConfig config = ConfigFactory.create(AuthConfig.class);
+        AuthConfig config = ConfigFactory.create(AuthConfig.class, System.getProperties());
 
         return config.getUserPassword();
     }

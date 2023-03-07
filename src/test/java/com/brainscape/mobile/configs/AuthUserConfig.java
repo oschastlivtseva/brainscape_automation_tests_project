@@ -8,13 +8,13 @@ import org.aeonbits.owner.Config;
 
 public interface AuthUserConfig extends Config {
 
-    @Key("user.email")
+    @Key("userEmail")
     String getUserEmail();
 
-    @Key("user.password")
+    @Key("userPassword")
     String getUserPassword();
 
-    @Key("user.name")
+    @Key("userName")
     String getUserName();
 
 }
