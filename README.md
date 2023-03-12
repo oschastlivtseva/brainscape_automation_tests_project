@@ -73,12 +73,12 @@ And then you need to click the **Build** button.
 #### <a name="how-to-run-autotests-locally">Run UI tests locally</a>
 Here's the command to start a new run locally:
 ```bash
-./gradlew clean ui_test
+./gradlew clean ui_test -Denv=local
 ```
 :exclamation: If you don't have access to the property file with creds, you might want to replace it with your own test data (e.g., you could create your test user and use its creds).
 In this case use this command:
 ```bash
-./gradlew clean test -Denv=local -DtestUserEmail="your_user_email" -DtestUserPassword="your_user_password" -DtestUserNameAndSurname="your_user_name_and_surname"
+./gradlew clean ui_test -Denv=local -DtestUserEmail="your_user_email" -DtestUserPassword="your_user_password" -DtestUserNameAndSurname="your_user_name_and_surname"
 ```
 
 ## <a name="api-tests">API tests</a>
