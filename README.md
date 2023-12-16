@@ -56,7 +56,7 @@ This test project was done as a part of the homework of The QA Automation School
 <sup>**Commercial video on the Landing page**
 - [x] <sup>Check the visibility of the modal form with the video + check that the video is playable</sup>
 
-#### <a name="how-to-run-autotests-remotely">Run UI tests remotely</a>
+#### <a name="how-to-run-autotests-remotely">Run UI tests remotely (CURRENTLY UNAVAILABLE)</a>
 Automation tests can be run with the **Jenkins**' job: <a href="https://jenkins.autotests.cloud/job/016-Nusae-brainscape-project-ui-tests/">_here's the link_</a>.
 
 To start a new run, click the button **Build with Parameters**.
@@ -70,7 +70,7 @@ After that you can choose a few parameters.
 And then you need to click the **Build** button.
 <img width="70%" title="Screen of Jenkins build 2" src="/readme-content/images/Build.png">
 
-#### <a name="how-to-run-autotests-locally">Run UI tests locally (CURRENTLY UNAVAILABLE)</a>
+#### <a name="how-to-run-autotests-locally">Run UI tests locally</a>
 Here's the command to start a new run locally:
 ```bash
 ./gradlew clean ui_test -Denv=local
