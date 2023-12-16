@@ -70,7 +70,7 @@ After that you can choose a few parameters.
 And then you need to click the **Build** button.
 <img width="70%" title="Screen of Jenkins build 2" src="/readme-content/images/Build.png">
 
-#### <a name="how-to-run-autotests-locally">Run UI tests locally</a>
+#### <a name="how-to-run-autotests-locally">Run UI tests locally (CURRENTLY UNAVAILABLE)</a>
 Here's the command to start a new run locally:
 ```bash
 ./gradlew clean ui_test -Denv=local
@@ -110,7 +110,7 @@ In this case use this command:
 - [x] <sup>Remove a non-existent deck
 - [x] <sup>Remove deck by an unauthorized user
 
-#### <a name="how-to-run-autotests-remotely">Run API tests remotely</a>
+#### <a name="how-to-run-autotests-remotely">Run API tests remotely (CURRENTLY UNAVAILABLE)</a>
 You can run API automation tests remotely by Jenkins job: <a href="https://jenkins.autotests.cloud/job/016-Nusae-brainscape-project-api-tests/">_link_</a>
 
 #### <a name="how-to-run-autotests-locally">Run API tests locally</a>
@@ -144,7 +144,7 @@ In this case use this command:
 - [x] <sup>Check successful login via email
 - [x] <sup>Check login failed due to an incorrect credentials
 
-#### <a name="how-to-run-autotests-remotely">Run Mobile tests remotely</a>
+#### <a name="how-to-run-autotests-remotely">Run Mobile tests remotely (CURRENTLY UNAVAILABLE)</a>
 You can run Mobile automation tests remotely by Jenkins job: <a href="https://jenkins.autotests.cloud/job/016-Nusae-brainscape-project-mobile-tests/">_link_</a>
 
 #### <a name="how-to-run-autotests-locally">Run Mobile tests locally</a>
